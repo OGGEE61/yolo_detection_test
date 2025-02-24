@@ -7,6 +7,8 @@ This project processes a video by extracting individual frames, annotating each 
 - **Object Detection & Annotation:** Utilizes YOLOv5 to detect vehicles in each frame. Each frame is annotated with bounding boxes and a counter overlay for the specified vehicle classes.
 - **Video Compilation:** Assembles the annotated frames into a final output video.
 
+<img src="assets/yolo_test.gif" alt="Demo Animation" width="500">
+
 ## Prerequisites
 - Python 3.x
 - OpenCV (`pip install opencv-python`)
